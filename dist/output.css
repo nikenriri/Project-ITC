@@ -639,6 +639,10 @@ video {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -734,6 +738,10 @@ video {
   height: 2px;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -752,6 +760,14 @@ video {
 
 .w-\[30px\] {
   width: 30px;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
 }
 
 .w-60 {
@@ -867,6 +883,11 @@ video {
   background-size: contain;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-36 {
   padding: 9rem;
 }
@@ -900,6 +921,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pt-36 {
   padding-top: 9rem;
 }
@@ -931,14 +962,14 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-2xl {
@@ -1021,11 +1052,6 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.group:hover .group-hover\:bg-teal-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 94 89 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 1024px) {
